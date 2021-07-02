@@ -1,0 +1,18 @@
+body {
+  background-image: url(/img/auth-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+}
+
+.auth-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.auth-input {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #777;
+
+}
