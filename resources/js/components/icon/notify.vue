@@ -1,0 +1,11 @@
+<template>
+    <svg width="20.475" height="21.891" viewBox="0 0 20.475 21.891">
+        <defs>
+            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#45d0fd"/>
+                <stop offset="1" stop-color="#4aeec9"/>
+            </linearGradient>
+        </defs>
+        <path id="alarm" d="M20.281,15.734H4.194L2,17.786v.684l.731.684H9.313a2.836,2.836,0,0,0,2.925,2.736,2.836,2.836,0,0,0,2.925-2.736h6.581l.731-.684v-.684Zm-.731-5.473a6.843,6.843,0,0,0-4.388-6.268V2.736A2.836,2.836,0,0,0,12.238,0,2.836,2.836,0,0,0,9.313,2.736V3.994a6.843,6.843,0,0,0-4.388,6.268V15.05H19.55ZM10.775,2.736a1.466,1.466,0,0,1,2.925,0Z" transform="translate(-2)" fill="url(#linear-gradient)"/>
+    </svg>
+</template>

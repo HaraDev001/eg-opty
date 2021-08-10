@@ -1,0 +1,29 @@
+.campaign-page {
+    //position: fixed;
+    &_header {
+        max-width: 100% !important;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 1px 2px #ccc;
+        padding-bottom: 0;
+
+        &_toolbar {
+            position: relative;
+            &_button {
+                margin: 0 10px;
+                width: 100px;
+            }
+            &_sort {
+                position: absolute !important;
+                right: 15px;
+                bottom: -10px;
+                max-width: 150px;
+            }
+        }
+    }
+    &_container {
+        //padding-top: 150px !important;
+        height: calc(100vh - 250px);
+        overflow-y: scroll;
+    }
+}

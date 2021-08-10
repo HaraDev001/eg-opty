@@ -1,0 +1,15 @@
+<template>
+    <svg width="18.996" height="18.998" viewBox="0 0 18.996 18.998">
+        <defs>
+            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#45d0fd"/>
+                <stop offset="1" stop-color="#4aeec9"/>
+            </linearGradient>
+        </defs>
+        <g id="Group_3319" data-name="Group 3319" transform="translate(-88 -660)">
+            <path id="Path_1664" data-name="Path 1664" d="M368.749,130.841a.742.742,0,0,0,.742-.742v-5.231a2.745,2.745,0,1,0-5.491,0v8.974a2.745,2.745,0,1,0,5.491,0,.742.742,0,1,0-1.484,0,1.261,1.261,0,0,1-2.523,0v-8.974a1.261,1.261,0,1,1,2.523,0V130.1A.742.742,0,0,0,368.749,130.841Z" transform="translate(-262.495 542.41)" fill="url(#linear-gradient)"/>
+            <path id="Path_1665" data-name="Path 1665" d="M2.746,183.122A2.749,2.749,0,0,0,0,185.867v6.711a2.746,2.746,0,0,0,5.491,0v-6.711A2.749,2.749,0,0,0,2.746,183.122Zm1.261,9.456a1.261,1.261,0,0,1-2.523,0v-6.711a1.261,1.261,0,0,1,2.523,0Z" transform="translate(88 483.674)" fill="url(#linear-gradient)"/>
+            <path id="Path_1666" data-name="Path 1666" d="M184.745,0A2.749,2.749,0,0,0,182,2.746v13.5a2.746,2.746,0,0,0,5.491,0V2.746A2.749,2.749,0,0,0,184.745,0Zm1.261,16.25a1.261,1.261,0,0,1-2.523,0V2.746a1.261,1.261,0,0,1,2.523,0Z" transform="translate(-87.248 660)" fill="url(#linear-gradient)"/>
+        </g>
+    </svg>
+</template>

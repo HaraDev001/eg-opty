@@ -1,0 +1,101 @@
+@import "variables";
+@import "~@mdi/font/css/materialdesignicons.min.css";
+@import "~vuetify/dist/vuetify.min.css";
+//@import "dropzone";
+@import 'quill-editor';
+
+/* general */
+a {
+  text-decoration: none;
+}
+
+.bg_half_transparent {
+  background: rgba($loader-bg-color, $loader-bg-transparency);
+}
+
+.wask_loader {
+  padding: 150px 0;
+  position: fixed;
+  z-index: 501;
+  border: 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.wask_loader > div.v-spinner > div {
+  margin: 0 auto;
+}
+
+img.logo {
+  width: 100px !important;
+  height: 100px;
+  flex: none;
+  margin: 30px auto;
+}
+
+.permissions_container {
+  padding: 10px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+}
+
+.fade-enter-active {
+  transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+.breadcrumbs li a {
+  text-decoration: none;
+  color: $menu-text-color;
+}
+
+/* pre-defined */
+.wask_td_action {
+  min-width: 150px;
+}
+
+/* override */
+#admin .snack {
+  z-index: 500 !important;
+}
+.v-content__wrap {
+  padding-bottom: 30px;
+}
+.v-navigation-drawer {
+  &__content {
+    background-color: #385356;
+  }
+
+  .v-list-group__items {
+    flex: 1 1 auto;
+    padding-left: 15px;
+  }
+
+  .v-list-item {
+    &__title {
+      color: #fff !important;
+    }
+
+    &--active {
+      background-color: #304749;
+    }
+  }
+
+  .v-list-group__header {
+    background-color: #5C6879 !important;
+
+    &__append-icon {
+      .v-icon {
+        color: #fff !important;
+      }
+    }
+  }
+}

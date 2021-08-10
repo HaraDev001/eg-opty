@@ -1,0 +1,69 @@
+.campaign-edit-page {
+    position: fixed;
+    ._header {
+        max-width: 100% !important;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 1px 2px #ccc;
+
+        ._header_title {
+            width: 100%;
+            text-align: center;
+            font-size: 1.25rem;
+        }
+        ._btn_back {
+            position: absolute;
+            &.v-btn--active {
+                background: transparent !important;
+            }
+        }
+    }
+    ._contents {
+        //padding-top: 150px !important;
+        height: calc(100vh - 250px);
+        overflow-y: scroll;
+        .col {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+        ._img_preview {
+            border: 1px solid #ddd;
+            box-shadow: 3px 3px 3px #ddd;
+        }
+        ._block {
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+        //._img_preview {
+        //    min-height: 200px;
+        //    max-height: 400px;
+        //}
+
+        ._label {
+            display: flex;
+            align-items: center;
+        }
+        ._date_start, ._date_end {
+            width: 150px;
+            display: inline-flex;
+        }
+        ._time_start, ._time_end {
+            width: 100px;
+            display: inline-flex;
+        }
+        .v-btn-toggle .v-btn--active {
+            background-color: royalblue !important;
+            color: white !important;
+        }
+    }
+    ._action {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        border-top: 1px solid #ddd;
+
+        .v-btn {
+            color: white !important;
+        }
+    }
+}
